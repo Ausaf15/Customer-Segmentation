@@ -1,0 +1,105 @@
+🛍️ Customer Segmentation using KMeans
+📌 Project Overview
+
+This project focuses on Customer Segmentation using clustering techniques in Python. The goal is to group customers into distinct segments based on their demographics, income, spending behavior, family size, profession, and tenure. Businesses can leverage these insights for personalized marketing, product targeting, and customer retention strategies.
+
+📊 Dataset
+
+The dataset contains 200 customer records with the following features:
+
+CustomerID – Unique customer identifier
+
+Gender – Male / Female
+
+Age – Customer’s age
+
+Annual_Income_k – Annual income (in thousands)
+
+Spending_Score – Score assigned based on spending behavior
+
+Family_Size – Number of family members
+
+Tenure_yrs – Years associated with the company
+
+Profession – Customer’s profession
+
+⚙️ Project Workflow
+
+Data Preprocessing
+
+Dropped irrelevant columns (CustomerID)
+
+Encoded categorical variables (Gender, Profession)
+
+Standardized numerical features
+
+Exploratory Data Analysis (EDA)
+
+Distribution plots & correlations
+
+Income vs. Spending behavior analysis
+
+Clustering (KMeans)
+
+Used Elbow Method to determine optimal number of clusters
+
+Applied KMeans clustering to segment customers
+
+Visualization
+
+Scatter plots of clusters (Income vs. Spending)
+
+Cluster profiling based on average values
+
+Insights
+
+Identified 4 unique customer groups with distinct characteristics
+
+Useful for targeted marketing and customer relationship management
+
+🛠️ Technologies Used
+
+Python
+
+Pandas, NumPy (data manipulation)
+
+Matplotlib, Seaborn (visualization)
+
+Scikit-learn (preprocessing & clustering)
+
+🚀 How to Run
+
+Clone this repo:
+
+git clone https://github.com/yourusername/customer-segmentation.git
+cd customer-segmentation
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Run the Jupyter Notebook or Python script:
+
+jupyter notebook customer_segmentation.ipynb
+
+📈 Sample Output
+
+Elbow Method Plot → helps decide optimal clusters
+
+Cluster Scatter Plot → visualizes customers by Income & Spending
+
+Cluster Summary Table → shows profile of each segment
+
+💡 Future Improvements
+
+Try DBSCAN or Hierarchical Clustering
+
+Use Principal Component Analysis (PCA) for dimensionality reduction
+
+Build an interactive dashboard in Power BI / Tableau
+
+🏷️ Keywords
+
+Customer Segmentation Clustering KMeans Machine Learning EDA Python Business Analytics
